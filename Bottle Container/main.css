@@ -51,6 +51,7 @@ body{
 .bottle-body {
     width: 15rem;
     height: auto;
+    position: relative;
 
     /* background-color: red; */
     
@@ -102,7 +103,80 @@ body{
     border-bottom-left-radius: 5rem;
     border-bottom-right-radius: 5rem;
     padding-block: 10rem;
+    position: relative;
 }
+
+.botlle-body-bottom-line {
+    width: 100%;
+    height: auto;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background: red; */
+    position: absolute;
+    bottom: 3.9rem;
+}
+
+.bottle-body-bottom-1{
+    background: black;
+    border: 0.2rem solid black;
+    border-radius: 2rem;
+    width: 1.5rem;
+}
+
+.bottle-body-bottom-2 {
+    background: black;
+    border: 0.2rem solid black;
+    border-radius: 2rem;
+    width: 3em;
+    padding-inline: 1rem;
+}
+
+.bottle-body-bottom-3 {
+    background: black;
+    border: 0.2rem solid black;
+    border-radius: 2rem;
+    width:7rem;
+}
+
+.body-fixer-1 {
+    width: 12.5rem;
+    height: auto;
+    /* background-color: blue !important; */
+    padding-block: 1rem;
+    border: 0.5rem;
+    border-radius: 2rem;
+    position: absolute;
+    top: 7.3rem;
+    left: 1.4rem;
+}
+
+.body-fixer-2 {
+    width: 11.1rem;
+    height: auto;
+    /* background-color: red !important; */
+    padding-block: 1rem;
+    border: 0.5rem;
+    border-radius: 2rem;
+    position: absolute;
+    top: 9.1rem;
+    right: 2rem;
+}
+
+.body-fixer-3 {
+    width: 12.5rem;
+    height: auto;
+    /* background-color: pink !important; */
+    padding-block: 1rem;
+    border: 0.5rem;
+    border-radius: 2rem;
+    position: absolute;
+    top: 6rem;
+    left: 1.4rem;
+}
+
+
 
 
 .ground {
