@@ -33,7 +33,7 @@ body{
     /* width: 100%; */
     height: 100%;
     padding: 1rem;
-    border: 0.2rem solid black;
+    border: 0.5rem solid black;
     border-top-left-radius: 5rem;
     border-top-right-radius: 5rem;
     /* border-bottom: 0.5rem; */
@@ -43,7 +43,7 @@ body{
     /* width: 100%; */
     height: 100%;
     padding: 1rem;
-    border: 0.2rem solid black;
+    border: 0.5rem solid black;
    border-radius: 0.4rem;
    
 }
@@ -65,42 +65,43 @@ body{
     height: 100%;
     background: white;
     border-top: 0.5rem solid black;
+    border-radius: 1rem;
     border-inline: 0.5rem solid black;
     border-top-left-radius: 6rem;
     border-top-right-radius: 6rem;
-    padding-block: 5rem;
+    padding-block: 3rem;
    
 }
 
-.bottle-body-middle-1{
-    border-inline: 0.5rem solid black;
+/* .bottle-body-middle-1{
+    background-color:yellow !important;
+    border: 0.5rem solid black;
     border-bottom-left-radius: 2rem;
     border-bottom-right-radius: 2rem;
-    padding-block: 5rem;
+    padding-block: .5rem;
    
-}
+} */
 
 .bottle-body-middle-2{
-    border-left: 0.5rem solid black;
-    border-right: 0.5rem solid black;
+    border: 0.5rem solid black;
     border-radius: 4rem;
-    padding-block: 5rem;
+    padding-block: 0.5rem;
 
 }
 
 .bottle-body-middle-3{
-    border-left: 0.5rem solid black;
-    border-right: 0.5rem solid black;
+    border: 0.5rem solid black;
     border-radius: 4rem;
-    padding-block: 5rem;
+    padding-block: 0.5rem;
+    padding-inline: 5rem;
 }
 
 .bottle-body-bottom{
-    margin-block-end: 0 !important;
     border: 0.5rem solid black;
+    border-radius: 2rem;
     border-bottom-left-radius: 5rem;
     border-bottom-right-radius: 5rem;
-    padding-block: 5rem;
+    padding-block: 10rem;
 }
 
 
