@@ -150,6 +150,8 @@ body{
     padding-block: 4rem;
     border-top-left-radius: 2.5rem;
     border-top-right-radius: 2.5rem;
+    border-bottom-left-radius: 2.5rem;
+    border-bottom-right-radius: 0.5rem;
     position: absolute;
     top: -0.8rem;
 }
@@ -190,6 +192,52 @@ body{
     bottom: 9rem;
     right: 9rem;
 }
+
+
+.botlle-body-bottom-water-wave{
+    background-color: white;
+    padding: 1rem 3rem;
+    border-radius: 3rem;
+    position: absolute;
+}
+
+.wave-1{
+    transform: rotate(72deg) !important;
+    left: 0.8rem;
+    top: 4.2rem;
+}
+
+.wave-2{
+    transform: rotate(-60deg);
+    right: 7.5rem;
+    top: 4.2rem;
+}
+
+.wave-3{
+    transform: rotate(60deg);
+    left: 4.5rem;
+    top: 4.5rem;
+}
+
+.wave-4{
+    transform: rotate(-45deg);
+    left: 4.8rem;
+    top: 4.7rem;
+}
+
+.wave-5{
+    transform: rotate(45deg);
+    left: 8.5rem;
+    top: 4.8rem;
+}
+
+.wave-6{
+    padding: 1rem 2rem !important;
+    transform: rotate(-45deg);
+    left: 8.7rem;
+    top: 5.4rem;
+}
+
 
 .body-fixer-1 {
     width: 12.5rem;
