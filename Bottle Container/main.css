@@ -14,6 +14,9 @@ body{
     width: 30rem;
     margin-inline: auto;
     margin-block: 5rem;
+    background: linear-gradient(to right, #21aaff, #0c89f4);
+    padding-block: 5rem;
+    padding-inline: 10rem;
 
 }
 
@@ -23,7 +26,6 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center ;
-    background: linear-gradient();
 }
 
 .bottle-head{
