@@ -13,6 +13,7 @@ body{
 .container {
     width: 30rem;
     margin-inline: auto;
+    margin-block: 5rem;
 
 }
 
@@ -22,6 +23,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center ;
+    background: linear-gradient();
 }
 
 .bottle-head{
@@ -30,17 +32,14 @@ body{
 }
 
 .bottle-head-top{
-    /* width: 100%; */
     height: 100%;
     padding: 1rem;
     border: 0.5rem solid black;
     border-top-left-radius: 5rem;
     border-top-right-radius: 5rem;
-    /* border-bottom: 0.5rem; */
 }
 
 .bottle-head-bottom{
-    /* width: 100%; */
     height: 100%;
     padding: 1rem;
     border: 0.5rem solid black;
@@ -52,14 +51,11 @@ body{
     width: 15rem;
     height: auto;
     position: relative;
-
-    /* background-color: red; */
     
 }
 
 .bottle-body > div {
     background: white;
-    /* margin-block-end: 5rem; */
 }
 
 .bottle-body-top{
@@ -236,6 +232,13 @@ body{
     transform: rotate(-45deg);
     left: 8.7rem;
     top: 5.4rem;
+}
+
+.wave-7 {
+    transform: rotate(-45deg);
+    left: 0.1rem;
+    top: 4rem;
+
 }
 
 
