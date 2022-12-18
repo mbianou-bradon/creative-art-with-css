@@ -72,14 +72,6 @@ body{
    
 }
 
-/* .bottle-body-middle-1{
-    background-color:yellow !important;
-    border: 0.5rem solid black;
-    border-bottom-left-radius: 2rem;
-    border-bottom-right-radius: 2rem;
-    padding-block: .5rem;
-   
-} */
 
 .bottle-body-middle-2{
     border: 0.5rem solid black;
@@ -156,8 +148,7 @@ body{
 
 .botlle-body-bottom-water-bubble{
     background-color: #22abff !important;
-    /* width: 3rem; */
-    /* padding: 1.5rem; */
+   
     border-radius: 3rem;
     position: absolute;
 }
@@ -247,7 +238,6 @@ body{
 .body-fixer-1 {
     width: 12.5rem;
     height: auto;
-    /* background-color: blue !important; */
     padding-block: 1rem;
     border: 0.5rem;
     border-radius: 2rem;
@@ -259,7 +249,6 @@ body{
 .body-fixer-2 {
     width: 11.1rem;
     height: auto;
-    /* background-color: red !important; */
     padding-block: 1rem;
     border: 0.5rem;
     border-radius: 2rem;
@@ -271,7 +260,6 @@ body{
 .body-fixer-3 {
     width: 12.5rem;
     height: auto;
-    /* background-color: pink !important; */
     padding-block: 1rem;
     border: 0.5rem;
     border-radius: 2rem;
