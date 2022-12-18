@@ -18,9 +18,10 @@ body{
 
 .sub-container {
     width: 100%;
-    /* display: flex; */
+    display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: ;
+    align-items: center ;
 }
 
 .bottle-head{
@@ -51,29 +52,31 @@ body{
     width: 15rem;
     height: auto;
 
-    background-color: red;
+    /* background-color: red; */
     
 }
 
 .bottle-body > div {
     background: white;
-    padding: 1rem;
-    margin-block-end: 5rem;
+    /* margin-block-end: 5rem; */
 }
 
 .bottle-body-top{
     height: 100%;
     background: white;
-    border: 0.5rem solid black;
-    border-top-left-radius: 2rem;
-    border-top-right-radius: 2rem;
+    border-top: 0.5rem solid black;
+    border-inline: 0.5rem solid black;
+    border-top-left-radius: 6rem;
+    border-top-right-radius: 6rem;
+    padding-block: 5rem;
    
 }
 
 .bottle-body-middle-1{
-    border: 0.5rem solid black;
-    border-bottom-left-radius: 5rem;
-    border-bottom-right-radius: 5rem;
+    border-inline: 0.5rem solid black;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    padding-block: 5rem;
    
 }
 
@@ -81,11 +84,60 @@ body{
     border-left: 0.5rem solid black;
     border-right: 0.5rem solid black;
     border-radius: 4rem;
+    padding-block: 5rem;
 
 }
 
 .bottle-body-middle-3{
+    border-left: 0.5rem solid black;
+    border-right: 0.5rem solid black;
+    border-radius: 4rem;
+    padding-block: 5rem;
+}
+
+.bottle-body-bottom{
+    margin-block-end: 0 !important;
+    border: 0.5rem solid black;
+    border-bottom-left-radius: 5rem;
+    border-bottom-right-radius: 5rem;
+    padding-block: 5rem;
+}
 
 
+.ground {
+     width: 17rem;
+     height: auto;
+     background-color: palevioletred;
+     display: flex;
+     justify-content: space-between;
 
+}
+
+.ground-1 {
+    background: black;
+    border: 0.2rem solid black;
+    border-radius: 2rem;
+    width: 1rem;
+}
+
+.ground-2 {
+    background: black;
+    border: 0.2rem solid black;
+    border-radius: 2rem;
+    width: 2.5rem;
+}
+
+.ground-3 {
+    background: black;
+    border: 0.2rem solid black;
+    border-radius: 2rem;
+    width: 7rem;
+    padding-inline: 1rem;
+}
+
+.ground-4 {
+    background: black;
+    border: 0.2rem solid black;
+    border-radius: 2rem;
+    width:5rem;
 }
