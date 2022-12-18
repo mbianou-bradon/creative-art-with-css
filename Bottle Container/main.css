@@ -98,12 +98,14 @@ body{
 }
 
 .bottle-body-bottom{
+    background: #0b88f9 !important;
     border: 0.5rem solid black;
     border-radius: 2rem;
     border-bottom-left-radius: 5rem;
     border-bottom-right-radius: 5rem;
     padding-block: 10rem;
     position: relative;
+
 }
 
 .botlle-body-bottom-line {
@@ -138,6 +140,55 @@ body{
     border: 0.2rem solid black;
     border-radius: 2rem;
     width:7rem;
+}
+
+
+.botlle-body-bottom-water-level {
+    
+    background-color: white !important;
+    width: 100%;
+    padding-block: 4rem;
+    border-top-left-radius: 2.5rem;
+    border-top-right-radius: 2.5rem;
+    position: absolute;
+    top: -0.8rem;
+}
+
+.botlle-body-bottom-water-bubble{
+    background-color: #22abff !important;
+    /* width: 3rem; */
+    /* padding: 1.5rem; */
+    border-radius: 3rem;
+    position: absolute;
+}
+
+.bubble-1{
+    padding: 1rem;
+    bottom: 5rem;
+}
+
+.bubble-2{
+    padding: 1rem;
+    bottom: 5rem;
+    right: 0;
+}
+
+.bubble-3{
+    padding: 0.5rem;
+    bottom: 6rem;
+    left: 3rem;
+}
+
+.bubble-4{
+    padding: 0.5rem;
+    bottom: 9rem;
+    right: 3rem;
+}
+
+.bubble-5{
+    padding: 1rem;
+    bottom: 9rem;
+    right: 9rem;
 }
 
 .body-fixer-1 {
