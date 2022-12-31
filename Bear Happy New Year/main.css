@@ -28,5 +28,57 @@
 }
 
 .bear_hand {
-    
+    position: relative;
+}
+
+.bear_hand_left {
+    background: red;
+    padding-inline: 3rem;
+    padding-block: 1.5rem;
+    border-radius: 2rem;
+    transform: rotate(-50deg);
+    position: absolute;
+    top: 1rem;
+    left: -9rem;
+
+}
+
+.bear_hand_right {
+    background: blue;
+    padding-inline: 3rem;
+    padding-block: 1.5rem;
+    border-radius: 2rem;
+    transform: rotate(50deg);
+    position: absolute;
+    top: 1rem;
+    right: -9rem;
+
+}
+
+.bear_foot {
+    position: relative;
+}
+
+.bear_foot_left {
+    background: red;
+    padding-inline: 3rem;
+    padding-block: 1.5rem;
+    border-radius: 2rem;
+    transform: rotate(-50deg);
+    position: absolute;
+    top: 1rem;
+    left: -9rem;
+
+}
+
+.bear_foot_right {
+    background: blue;
+    padding-inline: 3rem;
+    padding-block: 1.5rem;
+    border-radius: 2rem;
+    transform: rotate(50deg);
+    position: absolute;
+    top: 1rem;
+    right: -9rem;
+
 }
