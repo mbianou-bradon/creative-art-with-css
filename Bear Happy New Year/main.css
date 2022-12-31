@@ -61,24 +61,24 @@
 
 .bear_foot_left {
     background: red;
-    padding-inline: 3rem;
-    padding-block: 1.5rem;
+    padding-inline: 2.5rem;
+    padding-block: 2rem;
     border-radius: 2rem;
-    transform: rotate(-50deg);
+    transform: rotate(50deg);
     position: absolute;
-    top: 1rem;
-    left: -9rem;
+    top: 6rem;
+    left: -6rem;
 
 }
 
 .bear_foot_right {
     background: blue;
-    padding-inline: 3rem;
-    padding-block: 1.5rem;
-    border-radius: 2rem;
-    transform: rotate(50deg);
+    padding-inline: 2.5rem;
+    padding-block: 2rem;
+    border-radius: 5rem;
+    transform: rotate(-50deg);
     position: absolute;
-    top: 1rem;
-    right: -9rem;
+    top: 6rem;
+    right: -6rem;
 
 }
