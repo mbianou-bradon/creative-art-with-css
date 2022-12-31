@@ -35,10 +35,10 @@
 }
 
 .bear_ear_left {
-    background: red;
+    background: #899098;
     padding-inline: 0.8rem;
     padding-block: 0.7rem;
-    border: 0.5rem solid black;
+    border: 0.5rem solid #5D5C5A;;
     border-radius: 1rem;
     transform: rotate(-30deg);
     position: absolute;
@@ -47,10 +47,10 @@
 }
 
 .bear_ear_right {
-    background: blue;
+    background: #899098;
     padding-inline: 0.8rem;
     padding-block: 0.7rem;
-    border: 0.5rem solid black;
+    border: 0.5rem solid #5D5C5A;;
     border-radius: 1rem;
     transform: rotate(30deg);
     position: absolute;
@@ -65,10 +65,10 @@
 }
 
 .bear_nose_left {
-    background: red;
+    background: #5D5C5A;;
     padding-inline: 0.7rem;
     padding-block: 0.7rem;
-    border: 0.4rem solid black;
+    border: 0.4rem solid #899098;
     border-radius: 2rem;
     position: absolute;
     top: 2.5rem;
@@ -76,10 +76,10 @@
 }
 
 .bear_nose_right {
-    background: blue;
+    background: #5D5C5A;;
     padding-inline: 0.7rem;
     padding-block: 0.7rem;
-    border: 0.4rem solid black;
+    border: 0.4rem solid #899098;
     border-radius: 2rem;
     position: absolute;
     bottom: 2.5rem;
@@ -97,7 +97,6 @@
     background: black;
     padding-inline: 0.7rem;
     padding-block: 0.4rem;
-    /* border: 0.4rem solid black; */
     border-radius: 2rem;
     position: absolute;
     top: 0.7rem;
@@ -147,7 +146,7 @@
 }
 
 .bear_hand_left {
-    background: red;
+    background: #5D5C5A;;
     padding-inline: 3rem;
     padding-block: 1.5rem;
     border-radius: 2rem;
@@ -159,7 +158,7 @@
 }
 
 .bear_hand_right {
-    background: blue;
+    background: #5D5C5A;;
     padding-inline: 3rem;
     padding-block: 1.5rem;
     border-radius: 2rem;
@@ -178,7 +177,7 @@
 }
 
 .bear_foot_left {
-    background: red;
+    background: #899098;
     padding-inline: 2.5rem;
     padding-block: 2rem;
     border-radius: 2rem;
@@ -190,7 +189,7 @@
 }
 
 .bear_foot_right {
-    background: blue;
+    background: #899098;
     padding-inline: 2.5rem;
     padding-block: 2rem;
     border-radius: 5rem;
