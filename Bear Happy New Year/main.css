@@ -194,9 +194,47 @@
     padding-inline: 2.5rem;
     padding-block: 2rem;
     border-radius: 5rem;
-    transform: rotate(-50deg);
+    transform: rotate(-230deg);
     position: absolute;
     top: 6rem;
     right: -6rem;
 
+}
+
+.bear_toe {
+    background: white;
+    padding-inline: 0.35rem;
+    padding-block: 0.35rem;
+    border-radius: 1rem;
+    position: absolute;
+}
+
+.left-1 {
+    top: 0.75rem;
+    left: 0.9rem;
+}
+
+.left-2 {
+    top: 1.65rem;
+    left: 0.5rem;
+}
+
+.left-3 {
+    bottom: 0.75rem;
+    left: 0.75rem;
+}
+
+.right-1 {
+    top: 0.75rem;
+    left: 0.9rem;
+}
+
+.right-2 {
+    top: 1.65rem;
+    left: 0.5rem;
+}
+
+.right-3 {
+    bottom: 0.75rem;
+    left: 0.75rem;
 }
