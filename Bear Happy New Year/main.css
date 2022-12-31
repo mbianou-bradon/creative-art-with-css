@@ -41,7 +41,7 @@
     border: 0.4rem solid black;
     border-radius: 2rem;
     position: absolute;
-    top: 2rem;
+    top: 2.5rem;
     left: -4.5rem;
 }
 
@@ -52,7 +52,64 @@
     border: 0.4rem solid black;
     border-radius: 2rem;
     position: absolute;
-    bottom: 2rem;
+    bottom: 2.5rem;
+    left: -4.5rem;
+}
+
+
+/* Bear Eyes */
+
+.bear_eyes {
+    position: relative;
+}
+
+.bear_eye_left {
+    background: black;
+    padding-inline: 0.7rem;
+    padding-block: 0.4rem;
+    /* border: 0.4rem solid black; */
+    border-radius: 2rem;
+    position: absolute;
+    top: 0.7rem;
+    left: -4.5rem;
+}
+
+.bear_eye_right {
+    background: black;
+    padding-inline: 0.7rem;
+    padding-block: 0.4rem;
+    /* border: 0.4rem solid black; */
+    border-radius: 2rem;
+    position: absolute;
+    bottom: 0.5rem;
+    left: -4.5rem;
+}
+
+/* Bear E */
+
+.bear_eyes {
+    position: relative;
+}
+
+.bear_eye_left {
+    background: black;
+    padding-inline: 0.7rem;
+    padding-block: 0.4rem;
+    /* border: 0.4rem solid black; */
+    border-radius: 2rem;
+    position: absolute;
+    top: 0.7rem;
+    left: -4.5rem;
+}
+
+.bear_eye_right {
+    background: black;
+    padding-inline: 0.7rem;
+    padding-block: 0.4rem;
+    /* border: 0.4rem solid black; */
+    border-radius: 2rem;
+    position: absolute;
+    bottom: 0.5rem;
     left: -4.5rem;
 }
 
