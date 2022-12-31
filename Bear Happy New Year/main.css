@@ -19,13 +19,44 @@
     margin-inline: auto;
     background: #899098;
     padding-block: 8rem;
-    padding-inline: 3rem;
-    border-radius: 15rem;
+    padding-inline: 3.5rem;
+    border-radius: 5rem;
     transform: rotate(90deg);
     position: absolute;
     top: 0;
-    left: 3rem;
+    left: 2.7rem;
 }
+
+
+/* Bear nose */
+
+.bear_nose {
+    position: relative;
+}
+
+.bear_nose_left {
+    background: red;
+    padding-inline: 0.7rem;
+    padding-block: 0.7rem;
+    border: 0.4rem solid black;
+    border-radius: 2rem;
+    position: absolute;
+    top: 2rem;
+    left: -4.5rem;
+}
+
+.bear_nose_right {
+    background: blue;
+    padding-inline: 0.7rem;
+    padding-block: 0.7rem;
+    border: 0.4rem solid black;
+    border-radius: 2rem;
+    position: absolute;
+    bottom: 2rem;
+    left: -4.5rem;
+}
+
+/* Bear hand */
 
 .bear_hand {
     position: relative;
@@ -54,6 +85,9 @@
     right: -9rem;
 
 }
+
+
+/* Bear foot */
 
 .bear_foot {
     position: relative;
