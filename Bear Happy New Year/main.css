@@ -35,11 +35,27 @@
 }
 
 .bear_ear_left {
-
+    background: red;
+    padding-inline: 0.8rem;
+    padding-block: 0.7rem;
+    border: 0.5rem solid black;
+    border-radius: 1rem;
+    transform: rotate(-30deg);
+    position: absolute;
+    top: -10.5rem;
+    left: -4.5rem;
 }
 
 .bear_ear_right {
-    
+    background: blue;
+    padding-inline: 0.8rem;
+    padding-block: 0.7rem;
+    border: 0.5rem solid black;
+    border-radius: 1rem;
+    transform: rotate(30deg);
+    position: absolute;
+    top: -10.5rem;
+    right: -4.5rem;
 }
 
 /* Bear nose */
