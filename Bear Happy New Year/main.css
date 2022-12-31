@@ -8,6 +8,7 @@
     width: fit-content;
     height: auto;
     margin-inline: auto;
+    margin-block-start: 6rem;
     background: #5D5C5A;
     padding-block: 10rem;
     padding-inline: 6rem;
