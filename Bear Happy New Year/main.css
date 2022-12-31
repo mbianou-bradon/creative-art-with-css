@@ -22,6 +22,7 @@
     padding-block: 8rem;
     padding-inline: 3.5rem;
     border-radius: 5rem;
+    z-index: 10;
     transform: rotate(90deg);
     position: absolute;
     top: 0;
@@ -125,8 +126,9 @@
     padding-block: 0.6rem;
     border-radius: 0.2rem;
     position: absolute;
-    top: 1.7rem;
-    left: 2.5rem;
+    transform: rotate(90deg);
+    top: 1rem;
+    left: 1rem;
 }
 
 .bear_teeth_right {
@@ -135,8 +137,9 @@
     padding-block: 0.6rem;
     border-radius: 0.2rem;
     position: absolute;
-    bottom: 1.5rem;
-    left: 2.5rem;
+    transform: rotate(90deg);
+    top: 1rem;
+    right: 1rem;
 }
 
 /* Bear hand */
