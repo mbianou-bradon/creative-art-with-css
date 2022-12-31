@@ -78,39 +78,36 @@
     background: black;
     padding-inline: 0.7rem;
     padding-block: 0.4rem;
-    /* border: 0.4rem solid black; */
     border-radius: 2rem;
     position: absolute;
     bottom: 0.5rem;
     left: -4.5rem;
 }
 
-/* Bear E */
+/* Bear teeth */
 
-.bear_eyes {
+.bear_teeth {
     position: relative;
 }
 
-.bear_eye_left {
-    background: black;
-    padding-inline: 0.7rem;
-    padding-block: 0.4rem;
-    /* border: 0.4rem solid black; */
-    border-radius: 2rem;
+.bear_teeth_left {
+    background: white;
+    padding-inline: 1rem;
+    padding-block: 0.6rem;
+    border-radius: 0.2rem;
     position: absolute;
-    top: 0.7rem;
-    left: -4.5rem;
+    top: 1.7rem;
+    left: 2.5rem;
 }
 
-.bear_eye_right {
-    background: black;
-    padding-inline: 0.7rem;
-    padding-block: 0.4rem;
-    /* border: 0.4rem solid black; */
-    border-radius: 2rem;
+.bear_teeth_right {
+    background: white;
+    padding-inline: 1rem;
+    padding-block: 0.6rem;
+    border-radius: 0.2rem;
     position: absolute;
-    bottom: 0.5rem;
-    left: -4.5rem;
+    bottom: 1.5rem;
+    left: 2.5rem;
 }
 
 /* Bear hand */
