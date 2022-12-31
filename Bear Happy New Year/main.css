@@ -3,3 +3,13 @@
     margin: 0;
     padding: 0;
 }
+
+.bear_body {
+    width: fit-content;
+    height: auto;
+    margin-inline: auto;
+    background: #757577;
+    padding-block: 10rem;
+    padding-inline: 6rem;
+    border-radius: 8rem;
+}
