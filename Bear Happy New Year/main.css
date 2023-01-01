@@ -6,6 +6,7 @@
 
 body{
     background: linear-gradient(to top, #e1fefe, #e0ffff);
+    padding: 2rem;
 }
 
 .bear_body {
@@ -267,7 +268,7 @@ body{
     color: transparent;
     position: absolute;
     top: 10rem;
-    left: 27rem;
+    left: 25rem;
 }
 
 .new {
@@ -284,11 +285,11 @@ body{
     -moz-background-clip: text;
     background-clip: text;
     color: transparent;
-    transform: rotate(45deg);
+    transform: rotate(50deg);
     color: transparent;
     position: absolute;
-    top: 10rem;
-    right: 27rem;
+    top: 11rem;
+    right: 28rem;
 }
 
 .year_1{
